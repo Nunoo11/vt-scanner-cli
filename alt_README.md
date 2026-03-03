@@ -22,6 +22,8 @@ Scanner de fichiers, dossiers et URLs via l'API VirusTotal v3 en ligne de comman
 - [Contribution](#-contribution)
 - [Licence](#-licence)
 - [Liens Utiles](#-liens-utiles)
+- [Support](#-Support)
+- [Notes de Version](#-Notes-de-Version)
 
 ---
 

@@ -186,7 +186,8 @@ Propre (70 analyse)
 ### Vérifier la clé API
 
 ```powershell
-$apiKey = "VOTRE_CLE"
+# Sous PowrShell 5.1+
+$apiKey = "VOTRE_CLE_API"
 $headers = @{ "x-apikey" = $apiKey }
 Invoke-RestMethod -Uri "https://www.virustotal.com/api/v3/users/me" -Headers $headers
 ```
@@ -273,5 +274,6 @@ Pour toute question ou problème :
 ---
 
 *README généré pour vt-scanner-cli - Dernière mise à jour: 3 mars 2026*
+
 
 

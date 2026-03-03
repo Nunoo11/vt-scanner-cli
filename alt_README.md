@@ -30,7 +30,7 @@ Scanner de fichiers, dossiers et URLs via l'API VirusTotal v3 en ligne de comman
 ## ✨ Fonctionnalités
 
 | Option | Description |
-|--------|-------------|
+| ------ | ----------- |
 | **1** | Scanner un fichier (hash + upload optionnel) |
 | **2** | Scanner un dossier (récursif, max 10 fichiers) |
 | **3** | Scanner une URL (HTTPS recommandé) |
@@ -49,7 +49,7 @@ Scanner de fichiers, dossiers et URLs via l'API VirusTotal v3 en ligne de comman
 
 ## 📁 Structure du Projet
 
-```
+```text
 vt-scanner-cli/
 ├── vt-scanner.ps1      # Script principal (~200 lignes)
 ├── README.md           # Ce fichier
@@ -62,7 +62,7 @@ vt-scanner-cli/
 ## 🖥️ Prérequis
 
 | Requis | Version | Vérification |
-|--------|---------|--------------|
+| ------ | ------- | ------------ |
 | **PowerShell** | 5.1+ | `$PSVersionTable.PSVersion` |
 | **Clé API VirusTotal** | Gratuite | [virustotal.com](https://www.virustotal.com/gui/my-apikey) |
 | **Connexion Internet** | Requise | - |
@@ -108,7 +108,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### Limites du compte gratuit
 
 | Type | Limite | Reset |
-|------|--------|-------|
+| ---- | ------ | ----- |
 | Fichiers/jour | 4 uploads | 24h |
 | URLs/minute | 4 scans | 1min |
 | Requêtes/minute | 60 | 1min |
@@ -133,7 +133,7 @@ Invoke-RestMethod -Uri "https://www.virustotal.com/api/v3/users/me" -Headers $he
 
 ### Menu Principal
 
-```
+```text
 === VirusTotal Scanner CLI (PS5.1+) ===
 1. Scanner un fichier (hash + upload optionnel)
 2. Scanner un dossier (recursif, max 10 fichiers)
@@ -149,7 +149,7 @@ Choix (0-5):
 
 #### Scanner un fichier
 
-```
+```text
 Choix: 1
 Chemin du fichier: C:\Users\bbrod\Downloads\test.exe
 Hash: abc123...
@@ -159,7 +159,7 @@ Propre (62 analyse)
 
 #### Scanner une URL
 
-```
+```text
 Choix: 3
 URL a scanner: https://example.com
 Scan lance. Attente (60s)...
@@ -169,7 +169,7 @@ Propre (89 analyse)
 
 #### Scanner par hash
 
-```
+```text
 Choix: 4
 SHA256 hash: abc123def456...
 Resultat hash 'abc123...':
@@ -178,7 +178,7 @@ Propre (70 analyse)
 
 #### Scanner un dossier
 
-```
+```text
 Choix: 2
 Chemin du dossier: C:\Users\bbrod\Downloads
 Scan 10 fichiers...
@@ -193,7 +193,7 @@ Scan 10 fichiers...
 ### Erreur 400 Bad Request
 
 | Cause | Solution |
-|-------|----------|
+| ----- | -------- |
 | Espaces dans l'URL API | Vérifier `$script:BaseUrl` sans espaces |
 | Clé API invalide | Régénérer sur virustotal.com |
 | Quota dépassé | Attendre 24h (fichiers) ou 1min (URLs) |
@@ -201,13 +201,13 @@ Scan 10 fichiers...
 ### Erreur Read-Host
 
 | Cause | Solution |
-|-------|----------|
+| ----- | -------- |
 | Prompt vide | Utiliser `Read-Host "texte"` (pas `""`) |
 
 ### Upload échoue
 
 | Cause | Solution |
-|-------|----------|
+| ----- | -------- |
 | Fichier trop volumineux | Max 650 MB (API VT) |
 | Multipart mal formé | Utiliser `MemoryStream` + `StreamWriter` |
 
@@ -231,7 +231,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### Architecture du Script
 
 | Fonction | Description |
-|----------|-------------|
+| -------- | ----------- |
 | `Update-Headers` | Configure les en-têtes API |
 | `Show-Menu` | Affiche le menu principal |
 | `Get-ScanReport` | Récupère les stats d'analyse |
@@ -244,7 +244,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### Corrections Appliquées (v1.0)
 
 | Problème | Solution |
-|----------|----------|
+| -------- | -------- |
 | `Read-Host ""` vide | Prompt avec texte |
 | Upload 400 | `MemoryStream` + `StreamWriter` |
 | URL 400 | `$urlId = $scan.data.id` (sans split) |
@@ -319,7 +319,7 @@ Ce projet est fourni **tel quel** pour un usage **personnel et éducatif**.
 ## 🔗 Liens Utiles
 
 | Ressource | Lien |
-|-----------|------|
+| --------- | ---- |
 | **VirusTotal API v3** | [developers.virustotal.com](https://developers.virustotal.com/reference) |
 | **Obtenir une clé API** | [virustotal.com/gui/my-apikey](https://www.virustotal.com/gui/my-apikey) |
 | **Documentation PowerShell** | [docs.microsoft.com/powershell](https://docs.microsoft.com/powershell/) |

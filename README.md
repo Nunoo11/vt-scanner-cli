@@ -1,5 +1,9 @@
 # 🛡️ VirusTotal Scanner CLI
 
++ ![Version](https://img.shields.io/badge/version-1.0-blue)
++ ![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-blueviolet)
++ ![License](https://img.shields.io/badge/license-Personal%2FEdu-green)
+
 Scanner de fichiers, dossiers et URLs via l'API VirusTotal v3 en ligne de commande PowerShell.
 
 ---
@@ -247,3 +251,4 @@ Pour toute question ou problème :
 **Développé avec ❤️ par valorisa**
 
 *Version: 1.0 | PowerShell 5.1+ | API VirusTotal v3*
+

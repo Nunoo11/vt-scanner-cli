@@ -15,7 +15,7 @@ Scanner de fichiers, dossiers et URLs via l'API VirusTotal v3 en ligne de comman
 - [Prérequis](#%EF%B8%8F-prérequis)
 - [Installation](#-installation)
 - [Configuration](#-configuration)
-- [Usage](#-usage)
+- [Utilisation](#-utilisation)
 - [Dépannage](#-dépannage)
 - [Structure du Projet](#-structure-du-projet)
 - [Développement](#-développement)
@@ -273,4 +273,5 @@ Pour toute question ou problème :
 ---
 
 *README généré pour vt-scanner-cli - Dernière mise à jour: 3 mars 2026*
+
 

@@ -61,6 +61,7 @@ Scanner de fichiers, dossiers et URLs via l'API VirusTotal v3 en ligne de comman
 ### 1. Cloner le dépôt
 
 ```powershell
+# Sous PowrShell 5.1+
 git clone https://github.com/valorisa/vt-scanner-cli.git
 cd vt-scanner-cli
 ```
@@ -274,6 +275,7 @@ Pour toute question ou problème :
 ---
 
 *README généré pour vt-scanner-cli - Dernière mise à jour: 3 mars 2026*
+
 
 
 

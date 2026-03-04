@@ -167,6 +167,16 @@ Hash: abc123...
 Propre (62 analyse)
 ```
 
+#### Scanner un dossier
+
+```text
+Choix: 2
+Chemin du dossier: C:\Users\bbrod\Downloads
+Scan 10 fichiers...
+  fichier1.exe: Propre (62 analyse)
+  fichier2.dll: 2/62 detections malveillantes
+```
+
 #### Scanner une URL
 
 ```text
@@ -184,16 +194,6 @@ Choix: 4
 SHA256 hash: abc123def456...
 Resultat hash 'abc123...':
 Propre (70 analyse)
-```
-
-#### Scanner un dossier
-
-```text
-Choix: 2
-Chemin du dossier: C:\Users\bbrod\Downloads
-Scan 10 fichiers...
-  fichier1.exe: Propre (62 analyse)
-  fichier2.dll: 2/62 detections malveillantes
 ```
 
 ---
@@ -370,3 +370,4 @@ Pour toute question ou problème :
 ---
 
 *README généré pour vt-scanner-cli - Dernière mise à jour: le 03 mars 2026*
+

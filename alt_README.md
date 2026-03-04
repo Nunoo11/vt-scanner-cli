@@ -137,6 +137,7 @@ Invoke-RestMethod -Uri "https://www.virustotal.com/api/v3/users/me" -Headers $he
 ### Lancement
 
 ```powershell
+# Sous Powershell 5.1+
 .\vt-scanner.ps1
 ```
 

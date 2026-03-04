@@ -266,6 +266,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### Test de connexion API
 
 ```powershell
+# Sous Powershell 5.1+
 $apiKey = "VOTRE_CLE_API"
 $headers = @{ "x-apikey" = $apiKey }
 Invoke-RestMethod -Uri "https://www.virustotal.com/api/v3/users/me" -Headers $headers
@@ -286,6 +287,7 @@ Chemin: C:\chemin\vers\test.txt
 ### Test de scan URL
 
 ```powershell
+# Sous Powershell 5.1+
 .\vt-scanner.ps1
 Choix: 3
 URL: https://example.com

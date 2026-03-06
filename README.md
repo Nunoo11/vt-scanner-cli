@@ -415,15 +415,6 @@ Choix: 1
 Chemin: C:\chemin\vers\test.txt
 ```
 
-### Test de scan URL
-
-```powershell
-# Sous Powershell 5.1+
-.\vt-scanner.ps1
-Choix: 3
-URL: https://example.com
-```
-
 ### Test de scan dossier + export CSV
 
 ```powershell
@@ -432,6 +423,15 @@ URL: https://example.com
 Choix: 2
 Chemin: C:\chemin\vers\dossier
 # À la fin, taper 'o' pour exporter le CSV
+```
+
+### Test de scan URL
+
+```powershell
+# Sous Powershell 5.1+
+.\vt-scanner.ps1
+Choix: 3
+URL: https://example.com
 ```
 
 ---

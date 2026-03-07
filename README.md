@@ -61,7 +61,10 @@ Scanner de fichiers, dossiers et URLs via l'API VirusTotal v3 en ligne de comman
 
 ```text
 vt-scanner-cli/
-├── vt-scanner.ps1      # Script principal (~370 lignes)
+├── ROADMAP.md          # Roadmap
+├── CHANGELOG.md        # Changements
+├── SECURITY.md         # Securité
+├── vt-scanner.ps1      # Script principal (~395 lignes)
 ├── README.md           # Ce fichier
 ├── backup_README.md    # Une copie de sauvegarde du README.md
 ├── digest.txt          # Documentation technique

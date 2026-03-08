@@ -254,7 +254,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ### Git Credential Manager - Warnings "multiple values"
 
-**Problème :** Éventuels essages d'erreur lors des commandes Git (push) :
+**Problème :** Éventuels messages d'erreur lors des commandes Git (push) :
 
 ```text
 warning: credential.helper has multiple values

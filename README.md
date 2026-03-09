@@ -767,4 +767,4 @@ Pour toute question ou problème :
 
 ---
 
-**Votre README.md est maintenant complet et à jour avec la version 1.2 !** 🚀
+**Le fichier README.md est maintenant complet et à jour avec la version 1.2 !** 🚀

